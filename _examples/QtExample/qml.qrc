@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/bar/Bottom.qml</file>
+        <file>qml/bar/Mid.qml</file>
+        <file>qml/bar/Top.qml</file>
+        <file>qml/box/BoxBottom.qml</file>
+        <file>qml/box/BoxMid.qml</file>
+        <file>qml/box/BoxTop.qml</file>
+        <file>resources/bg.png</file>
+        <file>resources/calendar.png</file>
+        <file>resources/canvas.png</file>
+        <file>resources/gnss.png</file>
+        <file>resources/line_h.png</file>
+        <file>resources/logw.png</file>
+        <file>resources/map.png</file>
+        <file>resources/proj.png</file>
+        <file>resources/setting.png</file>
+        <file>resources/tide.png</file>
+        <file>resources/typhoon.png</file>
+        <file>resources/weather.png</file>
+        <file>qml/main.qml</file>
+        <file>map.qml</file>
+    </qresource>
+</RCC>

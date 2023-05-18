@@ -1,0 +1,32 @@
+import QtQuick 2.0
+import QtQuick.Window 2.0
+
+
+Item
+{
+    property alias txt_top: txtTop.text;
+    property alias txt_bottom: txtBottom.text;
+    property alias img_url: imgIcon.source;
+
+    property string txt_color: "white"
+    property real font_size: 18
+
+    id: box
+    width: 200
+    height: parent.height
+
+
+    Column {
+        height: parent.height
+        width:  parent.width
+
+
+        Image {id: imgIcon}
+        Text { id: txtTop; font.pointSize: font_size; color: txt_color ; anchors.horizontalCenter: parent.horizontalCenter}
+        Text { id: txtBottom; font.pointSize: font_size; color: txt_color; anchors.horizontalCenter: parent.horizontalCenter}
+
+
+        }
+}
+
+
